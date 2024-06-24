@@ -38,3 +38,11 @@ Notes:
 - `Object.values()` returns an array containing the property values of the object in the same order as provided by a `for...in` loop (excluding inherited properties).
 - If obj is null or undefined, it will throw a TypeError.
 
+### Enumerable Property:
+In JavaScript, properties of objects can have ***different attributes***, one of which is called **"enumerable"**. This attribute determines whether a property will ***show up when you loop over*** the object using certain methods.
+
+#### Key Points about Enumerable Properties
+- **Visibility in Loops:** If a property is enumerable, it will be included when you use a `for...in` loop to go through the object's properties.
+
+- **Inclusion in Methods:** Enumerable properties will also show up in the arrays returned by methods like `Object.keys()`, `Object.values()`, and `Object.entries()`.
+

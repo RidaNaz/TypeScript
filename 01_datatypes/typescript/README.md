@@ -2,7 +2,7 @@
 ## Basic types
 Along with Primitive types here are some other types in TypeScript that falls in basic category:
 
-### 1. Array
+### 1. [Array](/06_arraymethods/README.md)
 Represents a collection of values. Can be defined in two ways:
 
 * Array type literal: `elementType[]`
@@ -13,7 +13,7 @@ let list: number[] = [1, 2, 3];
 let genericList: Array<number> = [1, 2, 3];
 ```
 
-### 2. Tuple
+### 2. [Tuple](/01_datatypes/typescript/tuples/README.md)
 Represents an array with a fixed number of elements where each element can have a different type.
 
 ```ts
@@ -22,7 +22,7 @@ x = ["hello", 10]; // OK
 x = [10, "hello"]; // Error
 ```
 
-### 3. Enum
+### 3. [Enum](/01_datatypes/typescript/enums/README.md)
 Represents a collection of related values that can be numeric or string-based.
 
 ```ts

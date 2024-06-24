@@ -101,8 +101,8 @@ console.log(numbers); // Output: [1, 2, 3, 4]
 const words = ['banana', 'apple', 'cherry'];
 words.sort();
 console.log(words); // Output: ['apple', 'banana', 'cherry']
-For numerical sorting, a compare function is needed:
 
+// For numerical sorting, a compare function is needed:
 const numbers = [4, 2, 3, 1];
 numbers.sort((a, b) => a - b);
 console.log(numbers); // Output: [1, 2, 3, 4]

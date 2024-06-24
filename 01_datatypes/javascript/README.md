@@ -41,7 +41,7 @@ let uniqueId: symbol = Symbol('id');
 ```
 
 # Non-primitive Types
-Non-primitive types are more complex types and are derived from the primitive types. The main non-primitive types in TypeScript are:
+Non-primitive types are more complex types and are derived from the primitive types. The main non-primitive types in JavaScript are:
 * objects 
 * arrays
 

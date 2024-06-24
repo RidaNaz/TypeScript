@@ -1,5 +1,5 @@
 # Closures:
-A closure is a feature in programming languages where an inner function has access to the outer (enclosing) function's variables. This access is preserved even after the outer function has finished executing. In other words, a closure allows a function to access variables from an enclosing scope (lexical scope) even after the function has finished executing and those variables are no longer in scope.
+A closure is a feature in programming languages where an inner function has access to the outer (enclosing) function's variables. This access is preserved even after the outer function has finished executing. In other words, a closure allows a function to access variables from an enclosing scope ([lexical scope](/02_scopes/README.md#lexical-scope)) even after the function has finished executing and those variables are no longer in scope.
 
 ## Example
 

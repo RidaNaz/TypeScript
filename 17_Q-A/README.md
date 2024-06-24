@@ -252,7 +252,7 @@ Example:
 
 ```ts
 let x = 5 // Missing semicolon
-if (x > 5 ){ // Missing closing parenthesis
+if (x > 5 { // Missing closing parenthesis
     console.log("x is greater than 5");
     }
 ```
