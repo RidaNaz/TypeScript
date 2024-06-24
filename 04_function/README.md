@@ -17,6 +17,6 @@ function processUserInput(callback: (name: string) => void) {
 processUserInput(greet); // Output: Hello, John Doe
 ```
 
-* greet is a function that takes a string and logs a greeting message.
-* processUserInput is a function that takes another function (callback) as an argument and calls it with a simulated user input.
-* greet is passed as the callback to processUserInput and is called with the name "John Doe".
+* Greet is a function that takes a string and logs a greeting message.
+* ProcessUserInput is a function that takes another function (callback) as an argument and calls it with a simulated user input.
+* Greet is passed as the callback to processUserInput and is called with the name "John Doe".

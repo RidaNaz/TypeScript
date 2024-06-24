@@ -35,3 +35,6 @@ Similarly, `addFive(10)` computes 5 + 10, resulting in 15.
 * Memory Management: Closures can hold references to outer variables, potentially keeping them alive longer than expected, which may affect memory usage if not managed properly.
 
 * Performance: While closures are powerful, excessive use or misuse (like creating too many nested closures unnecessarily) can impact performance.
+
+* **Lexical scope is about the physical location of variables and their accessibility.**
+* **Closures are functions that have access to their own scope and the scope of their parent functions.**
