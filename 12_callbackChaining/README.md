@@ -33,7 +33,7 @@ fetchUser(1)
 
 - fetchUser: Returns a promise that resolves with user data.
 - fetchUserDetails: Returns a promise that resolves with user details.
-- Chaining: Use .then to handle each step in sequence, and .catch for error handling.
+- Chaining: Use `.then` to handle each step in sequence, and `.catch` for error handling.
 
 ## Using Async/Await
 
@@ -54,13 +54,13 @@ getUserDetails(1);
 
 #### Explanation:
 
-- async Function: Allows using await to pause execution until promises resolve.
+- async Function: Allows using `await` to pause execution until promises resolve.
 - await: Retrieves results from promises sequentially.
-- Error Handling: Managed with try...catch.
+- Error Handling: Managed with `try...catch`.
 
 ### Summary
 - Callback Chaining: Sequential execution of asynchronous operations.
-- Promises: Use .then and .catch to chain operations.
+- Promises: Use `.then` and `.catch` to chain operations.
 - Async/Await: Synchronous-like syntax for handling promises, improving readability.
 
 

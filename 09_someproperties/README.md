@@ -26,8 +26,8 @@ The parseInt() function parses a string argument and returns an integer of the s
 parseInt(string, radix?)
 ```
 
-string: The string to parse into an integer.
-radix: An optional integer between 2 and 36 that represents the numeral system to be used (e.g., binary, octal, decimal, hexadecimal).
+- **string:** The string to parse into an integer.
+- **radix:** An optional integer between 2 and 36 that represents the numeral system to be used (e.g., binary, octal, decimal, hexadecimal).
 
 ```ts
 let numStr = "123";
@@ -45,8 +45,8 @@ The toString() method converts a number to a string. It can also be used with ot
 num.toString(radix?)
 ```
 
-num: The number or object to convert to a string.
-radix: An optional integer between 2 and 36 specifying the base to use for representing numeric values.
+- **num:** The number or object to convert to a string.
+- **radix:** An optional integer between 2 and 36 specifying the base to use for representing numeric values.
 
 ```ts
 let num = 123;
