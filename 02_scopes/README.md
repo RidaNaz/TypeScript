@@ -22,3 +22,6 @@ outerFunction();
 - Variables declared inside a function are only accessible within that function.
 - Variables declared outside a function are accessible from anywhere within the same file.
 - Variables declared inside a block (e.g., if statement or loop) are only accessible within that block.
+
+* **Lexical scope is about the physical location of variables and their accessibility.**
+* **Closures are functions that have access to their own scope and the scope of their parent functions.**

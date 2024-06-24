@@ -1,6 +1,8 @@
 # Class Expression
 In TypeScript, class expressions provide a way to define classes using expressions rather than declarations. This gives you more flexibility in defining classes dynamically at runtime or in scenarios where class definitions need to be generated programmatically. Class expressions are similar to function expressions in JavaScript.
 
+**It's a small, self-contained definition of a class that can be used wherever a class is expected.**
+
 ### Syntax
 The syntax for a class expression is straightforward:
 

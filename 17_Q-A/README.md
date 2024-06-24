@@ -49,10 +49,9 @@ function subtract(a, b) {
 }
 
 module.exports = { add, subtract };
-app.js (Main File)
 ```
 
-> app.js
+> app.js (Main file)
 ```js
 const math = require('./math');
 
@@ -92,7 +91,7 @@ In an interpreted language, the source code is executed directly by an interpret
 - This compilation step typically happens before the program is run, producing an executable file that can be distributed and run independently of the source code.
 
 ## Modern JavaScript Engines
-Modern JavaScript engines, such as Google V8 (used in Chrome and Node.js), SpiderMonkey (used in Firefox), and JavaScriptCore (used in Safari), use a hybrid approach involving both *interpretation* and *just-in-time (JIT) compilation*. Here’s how it works:
+Modern JavaScript engines, such as Google V8 (used in Chrome and Node.js), SpiderMonkey (used in Firefox), and JavaScriptCore (used in Safari), use a hybrid approach involving both *interpretation* and *just-in-time (JIT) compilation*.
 
 # 4. Interpreter vs Compiler
 ## Interpreter
@@ -171,7 +170,8 @@ JavaScript is synchronous by default, executing code line by line. However, it h
 Executes code sequentially, blocking the next operation until the current one completes.
 
 ```ts
-let result = func1(); let result2 = func2(result);
+let result = func1();
+let result2 = func2(result);
 ```
 
 ## Asynchronous (Async):
@@ -278,10 +278,12 @@ num = "Hello"; // Error: Type 'string' is not assignable to type 'number'
 ```
 
 # What are Threads in Programming?
-Threads are the smallest unit of processing that can be scheduled by an operating system. A thread is a sequence of instructions within a program that can be managed independently by a scheduler.
+- Threads are the smallest unit of processing that can be scheduled by an operating system. A thread is a sequence of instructions within a program that can be managed independently by a scheduler.
+
+- System threads are threads created by the operating system or runtime environment to perform specific tasks. These threads are usually responsible for managing system resources, performing maintenance tasks, or providing services to applications.
 
 # Is Node.js Single-Threaded or Multi-Threaded?
-Node.js is single-threaded in its JavaScript execution model but uses a multi-threaded model under the hood for I/O operations via libuv.
+Node.js is single-threaded in its JavaScript execution model but uses a multi-threaded model under the hood for I/O operations via ***libuv***.
 
 # What is the Difference Between Single-Threaded and Multi-Threaded Languages?
 ## Single-Threaded:
