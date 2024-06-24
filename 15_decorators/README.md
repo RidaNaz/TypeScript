@@ -3,7 +3,7 @@
 - They allow you to modify or extend the behavior of these elements at runtime or compile-time without directly modifying their source code.
 
 ## Using Decorators
-To use decorators, you typically define a decorator function and then apply it to the target element using the @ syntax. Here’s a basic example:
+To use decorators, you typically define a decorator function and then apply it to the target element using the `@` syntax. Here’s a basic example:
 
 ```ts
 // Class decorator

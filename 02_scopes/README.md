@@ -16,3 +16,9 @@ function outerFunction() {
 outerFunction();
 ```
 **Inner functions have access to variables declared in their outer scope.**
+
+##### In TypeScript, lexical scope is governed by the following rules:
+
+- Variables declared inside a function are only accessible within that function.
+- Variables declared outside a function are accessible from anywhere within the same file.
+- Variables declared inside a block (e.g., if statement or loop) are only accessible within that block.

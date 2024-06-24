@@ -98,7 +98,7 @@ interface Person {
 let john: Person = { name: "John", age: 25 };
 ```
 
-### 5. Type Assertions
+### 5. [Type Assertions](/01_datatypes/typescript/explicitCasting/README.md)
 Allows you to override the inferred type.
 
 ```ts
